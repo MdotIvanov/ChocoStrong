@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.Model", "ChocoStrong.Model\ChocoStrong.Model.csproj", "{23BD9183-5068-48E2-A5BF-35897CBA6997}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.Data", "ChocoStrong.Data\ChocoStrong.Data.csproj", "{DA8CCAFE-70BC-4AA6-9257-AE75B6E26F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.ConsoleClient", "ChocoStrong.ConsoleClient\ChocoStrong.ConsoleClient.csproj", "{42E62FCE-35AD-463C-BCDE-95F3079CD768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{23BD9183-5068-48E2-A5BF-35897CBA6997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23BD9183-5068-48E2-A5BF-35897CBA6997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23BD9183-5068-48E2-A5BF-35897CBA6997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8CCAFE-70BC-4AA6-9257-AE75B6E26F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8CCAFE-70BC-4AA6-9257-AE75B6E26F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8CCAFE-70BC-4AA6-9257-AE75B6E26F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8CCAFE-70BC-4AA6-9257-AE75B6E26F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
