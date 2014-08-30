@@ -38,7 +38,7 @@ namespace ChocoStrong.XmlReportGenerator
                 isReportCreared = true;
             }
 
-
+            Console.WriteLine("Document {0} has been created.", fileName);
 
             return isReportCreared;
         }
