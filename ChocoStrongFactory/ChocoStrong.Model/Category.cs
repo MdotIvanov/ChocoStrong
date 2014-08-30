@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChocoStrong.Model
 {
-    public class City
+    public class Category
     {
-        public int CityId { get; set; }
+        public int CategoryId { get; set; }
 
-        public string CityName { get; set; }
+        public string CategoryName { get; set; }
     }
 }
