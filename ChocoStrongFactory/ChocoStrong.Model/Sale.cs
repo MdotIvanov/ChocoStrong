@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChocoStrong.Model
 {
-    // test commit asd
-    // test comment
-    public class Product
+    public class Sale
     {
-        public int ProductId { get; set; }
-
-        public string Name { get; set; }
-
-
+        public int SaleId { get; set; }
     }
 }
