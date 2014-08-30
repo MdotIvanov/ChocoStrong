@@ -28,5 +28,10 @@ namespace ChocoStrong.ProductModel
         }
 
         //public virtual Category Category { get; set; }
+
+        public string GetStringId()
+        {
+            return this.ProductId.ToString();
+        }
     }
 }

@@ -14,10 +14,9 @@ namespace ChocoStrong.SalesReportImporter
         {
             var Mocked = new List<Sale>()
             {
-                new Sale("ASD shop Name", "ASD CityName", 1, 10, 10.0M, DateTime.Now),
-                new Sale("ASD shop Name2", "ASD CityName", 1, 10, 10.0M, DateTime.Now),
-                new Sale("ASD shop Name3", "ASD CityName", 1, 10, 10.0M, DateTime.Now),
-                new Sale("ASD shop Name4", "ASD CityName", 1, 10, 10.0M, DateTime.Now),
+                new Sale("test shop", "Sofia", 1, 10, 10.0M, DateTime.Now),
+                new Sale("test shop 2", "Plovdiv", 1, 10, 10.0M, DateTime.Now),
+                new Sale("test shop 3", "Varna", 1, 10, 10.0M, DateTime.Now),
             };
 
             return Mocked;

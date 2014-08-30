@@ -34,5 +34,10 @@ namespace ChocoStrong.ProductModel
         public decimal UnitPrice { get; set; }
 
         public DateTime SaleDate { get; set; }
+
+        public string GetStringId()
+        {
+            return this.ProductId.ToString();
+        }
     }
 }

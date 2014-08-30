@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ChocoStrong.ProductsImporter
 {
-    class ProductsImporter : IProductsImporter
+    public class ProductsImporter : IProductsImporter
     {
         public ICollection<Product> GetAllProducts()
         {
@@ -24,6 +24,8 @@ namespace ChocoStrong.ProductsImporter
             var Mocked = new List<Shop>
             {
                 new Shop("test shop", new City{CityName = "Sofia"}),
+                new Shop("test shop 2", new City{CityName = "Plovdiv"}),
+                new Shop("test shop 3", new City{CityName = "Varna"}),
             };
             return Mocked;
         }

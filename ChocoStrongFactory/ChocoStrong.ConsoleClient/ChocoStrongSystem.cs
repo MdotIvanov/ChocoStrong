@@ -110,5 +110,10 @@ namespace ChocoStrong.ConsoleClient
 
             mChocoStrongDb.Save();
         }
+
+        public void ImportExpenses()
+        {
+
+        }
     }
 }

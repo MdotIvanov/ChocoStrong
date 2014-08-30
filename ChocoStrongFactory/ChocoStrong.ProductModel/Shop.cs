@@ -29,5 +29,10 @@ namespace ChocoStrong.ProductModel
 
 
         //public virtual City Location { get; set; }
+
+        public string GetStringId()
+        {
+            return this.ShopId.ToString();
+        }
     }
 }
