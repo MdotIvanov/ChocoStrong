@@ -47,6 +47,40 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChocoStrong.Data\ChocoStrong.Data.csproj">
+      <Project>{da8ccafe-70bc-4aa6-9257-ae75b6e26f6f}</Project>
+      <Name>ChocoStrong.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.JsonReportGenerator\ChocoStrong.JsonReportGenerator.csproj">
+      <Project>{7f2d1c6b-9ca4-415a-8390-8790801b5845}</Project>
+      <Name>ChocoStrong.JsonReportGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.Model\ChocoStrong.Model.csproj">
+      <Project>{23bd9183-5068-48e2-a5bf-35897cba6997}</Project>
+      <Name>ChocoStrong.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.PdfReportGenerator\ChocoStrong.PdfReportGenerator.csproj">
+      <Project>{14a9167a-699f-4b24-87b4-70dc513fdd13}</Project>
+      <Name>ChocoStrong.PdfReportGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.ProductModel\ChocoStrong.ProductModel.csproj">
+      <Project>{37a3a31e-67bf-41d4-840d-f564b577fd52}</Project>
+      <Name>ChocoStrong.ProductModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.ProductsImporter\ChocoStrong.ProductsImporter.csproj">
+      <Project>{0f50ca18-9c64-4942-9c2b-df1cdebf5149}</Project>
+      <Name>ChocoStrong.ProductsImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.SalesReports\ChocoStrong.SalesReportImporter.csproj">
+      <Project>{ad54508a-d708-401c-b9f7-a2b290c906db}</Project>
+      <Name>ChocoStrong.SalesReportImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChocoStrong.XmlReportGenerator\ChocoStrong.XmlReportGenerator.csproj">
+      <Project>{bbacb3fe-9289-4633-aa51-f07636748e4f}</Project>
+      <Name>ChocoStrong.XmlReportGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
