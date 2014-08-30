@@ -17,10 +17,8 @@ namespace ChocoStrong.ConsoleClient
     {
         static void Main(string[] args)
         {
-            var salesReportsImporter = new SalesReportImporter.SalesReportImporter();
-            var sales = salesReportsImporter.ImportAllSalesReports();
-
-            var chocostrongdb = new ChocoStrongDatabase();
+            var client = new ChocoStrongSystem();
+            client.DoStuff();
         }
     }
 }
