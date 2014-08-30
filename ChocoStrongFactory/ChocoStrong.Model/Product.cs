@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChocoStrong.Model
 {
-    //test commit asd
+    // test commit asd
+    // test comment
     public class Product
     {
         public int ProductId { get; set; }
