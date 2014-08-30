@@ -9,7 +9,7 @@ using ChocoStrong.Model;
 
 namespace ChocoStrong.Data
 {
-    public class EntityFrameworkContext : DbContext, IDatabase
+    public class EntityFrameworkContext : DbContext, IDatabaseContext
     {
         public EntityFrameworkContext()
             : base("ChocoStongDb")
@@ -27,7 +27,7 @@ namespace ChocoStrong.Data
 
         public IDbSet<Category> Categories { get; set; }
 
-        IDbSet<T> IDatabase.Set<T>()
+        IDbSet<T> IDatabaseContext.Set<T>()
         {
             return base.Set<T>();
         }

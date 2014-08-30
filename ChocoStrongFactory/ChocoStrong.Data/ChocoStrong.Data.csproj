@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChocoStrongDatabase.cs" />
     <Compile Include="EntityFrameworkContext.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="IDatabase.cs" />

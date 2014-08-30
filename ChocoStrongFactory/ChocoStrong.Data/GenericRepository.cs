@@ -8,10 +8,10 @@ namespace ChocoStrong.Data
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private IDatabase mChocoStrongContext;
+        private IDatabaseContext mChocoStrongContext;
         private IDbSet<T> mSet;
 
-        public GenericRepository(IDatabase context)
+        public GenericRepository(IDatabaseContext context)
         {
             this.mChocoStrongContext = context;
             this.mSet = context.Set<T>();

@@ -10,7 +10,7 @@ using ChocoStrong.Model;
 
 namespace ChocoStrong.Data
 {
-    public interface IDatabase
+    public interface IDatabaseContext
     {
         IDbSet<Product> Products { get; set; }
 
