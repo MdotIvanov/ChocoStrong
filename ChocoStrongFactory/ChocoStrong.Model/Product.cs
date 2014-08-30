@@ -11,8 +11,12 @@ namespace ChocoStrong.Model
     {
         public int ProductId { get; set; }
 
-        public string Name { get; set; }
+        public string ProductName { get; set; }
 
+        public decimal RecomendedPrice { get; set; }
 
+        public int CategoryId { get; set; }
+
+        public virtual Category Category { get; set; }
     }
 }
