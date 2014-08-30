@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.Data", "ChocoSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.ConsoleClient", "ChocoStrong.ConsoleClient\ChocoStrong.ConsoleClient.csproj", "{42E62FCE-35AD-463C-BCDE-95F3079CD768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.PdfReportGenerator", "ChocoStrong.PdfReportGenerator\ChocoStrong.PdfReportGenerator.csproj", "{14A9167A-699F-4B24-87B4-70DC513FDD13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.JsonReportGenerator", "ChocoStrong.JsonReportGenerator\ChocoStrong.JsonReportGenerator.csproj", "{7F2D1C6B-9CA4-415A-8390-8790801B5845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportGenerators", "ReportGenerators", "{468FC44C-D6C3-44D3-B201-2D44E6325EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoStrong.XmlReportGenerator", "ChocoStrong.XmlReportGenerator\ChocoStrong.XmlReportGenerator.csproj", "{BBACB3FE-9289-4633-AA51-F07636748E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +35,25 @@ Global
 		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E62FCE-35AD-463C-BCDE-95F3079CD768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A9167A-699F-4B24-87B4-70DC513FDD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A9167A-699F-4B24-87B4-70DC513FDD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A9167A-699F-4B24-87B4-70DC513FDD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A9167A-699F-4B24-87B4-70DC513FDD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2D1C6B-9CA4-415A-8390-8790801B5845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2D1C6B-9CA4-415A-8390-8790801B5845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2D1C6B-9CA4-415A-8390-8790801B5845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2D1C6B-9CA4-415A-8390-8790801B5845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBACB3FE-9289-4633-AA51-F07636748E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBACB3FE-9289-4633-AA51-F07636748E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBACB3FE-9289-4633-AA51-F07636748E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBACB3FE-9289-4633-AA51-F07636748E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBACB3FE-9289-4633-AA51-F07636748E4F} = {468FC44C-D6C3-44D3-B201-2D44E6325EBF}
+		{14A9167A-699F-4B24-87B4-70DC513FDD13} = {468FC44C-D6C3-44D3-B201-2D44E6325EBF}
+		{7F2D1C6B-9CA4-415A-8390-8790801B5845} = {468FC44C-D6C3-44D3-B201-2D44E6325EBF}
 	EndGlobalSection
 EndGlobal
