@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace ChocoStrong.Model
 {
@@ -17,6 +15,7 @@ namespace ChocoStrong.Model
 
         public int ShopId { get; set; }
 
+        [Required]
         public string ShopName { get; set; }
 
         public virtual ICollection<Sale> Sales
@@ -27,6 +26,7 @@ namespace ChocoStrong.Model
 
         public int LocationId { get; set; }
 
+        [Required]
         public virtual City Location { get; set; }
     }
 }

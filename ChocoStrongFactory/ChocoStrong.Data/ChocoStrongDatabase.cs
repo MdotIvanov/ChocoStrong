@@ -37,5 +37,10 @@ namespace ChocoStrong.Data
         {
             get { return mSalesRepository; }
         }
+
+        public void Save()
+        {
+            mDbContext.SaveChanges();
+        }
     }
 }

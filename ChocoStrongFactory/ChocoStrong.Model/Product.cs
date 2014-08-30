@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace ChocoStrong.Model
 {
@@ -12,6 +9,7 @@ namespace ChocoStrong.Model
     {
         public int ProductId { get; set; }
 
+        [Required]
         public string ProductName { get; set; }
 
         public decimal RecomendedPrice { get; set; }

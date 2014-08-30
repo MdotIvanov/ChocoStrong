@@ -22,39 +22,43 @@ namespace ChocoStrong.Data
             return mSet.AsQueryable();
         }
 
+        public T Find(Expression<Func<T, bool>> expression)
+        {
+            return mSet.FirstOrDefault(expression);
+        }
+
         public void Add(T entity)
         {
-            var entry = AttachIfDetached(entity);
-            entry.State = EntityState.Added;
+            mSet.Add(entity);
         }
 
         public void Update(T entity)
         {
-            var entry = AttachIfDetached(entity);
-            entry.State = EntityState.Modified;
+            //var entry = AttachIfDetached(entity);
+            //entry.State = EntityState.Modified;
         }
 
         public void Delete(T entity)
         {
-            var entry = AttachIfDetached(entity);
-            entry.State = EntityState.Deleted;
+            //var entry = AttachIfDetached(entity);
+            //entry.State = EntityState.Deleted;
         }
 
         public void Detach(T entity)
         {
-            var entry = this.mChocoStrongContext.Entry(entity);
-            entry.State = EntityState.Detached;
+            //var entry = this.mChocoStrongContext.Entry(entity);
+            //entry.State = EntityState.Detached;
         }
 
-        private DbEntityEntry AttachIfDetached(T entity)
-        {
-            var entry = mChocoStrongContext.Entry(entity);
-            if (entry.State == EntityState.Detached)
-            {
-                mSet.Attach(entity);
-            }
+        //private DbEntityEntry AttachIfDetached(T entity)
+        //{
+        //    var entry = mChocoStrongContext.Entry(entity);
+        //    if (entry.State == EntityState.Detached)
+        //    {
+        //        mSet.Attach(entity);
+        //    }
 
-            return entry;
-        }
+        //    return entry;
+        //}
     }
 }

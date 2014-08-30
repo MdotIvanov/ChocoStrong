@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace ChocoStrong.Model
 {
@@ -12,16 +9,21 @@ namespace ChocoStrong.Model
 
         public int ShopId { get; set; }
 
+        [Required]
         public virtual Shop Shop { get; set; }
 
         public int ProductId { get; set; }
 
+        [Required]
         public virtual Product SoldProduct { get; set; }
 
+        [Required]
         public int Quantity { get; set; }
 
+        [Required]
         public decimal UnitPrice { get; set; }
 
+        [Required]
         public DateTime Date { get; set; }
     }
 }
