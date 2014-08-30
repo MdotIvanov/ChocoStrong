@@ -18,7 +18,10 @@ namespace ChocoStrong.ConsoleClient
         static void Main(string[] args)
         {
             var client = new ChocoStrongSystem();
-            client.DoStuff();
+            client.ImportProducts();
+            client.ImportSales();
+
+            Console.ReadKey();
         }
     }
 }
